@@ -13,7 +13,7 @@ Using this image is pretty straight-forward. To start a local server listening o
 just run:
 
 ```bash
-docker run tcharbonnel/jruby-torquebox4 -it -v /path/to/my/app:/app -p 1234:8080
+docker run -it -v /path/to/my/app:/app -p 1234:8080 tcharbonnel/jruby-torquebox4
 ```
 
 ## Docker Compose
