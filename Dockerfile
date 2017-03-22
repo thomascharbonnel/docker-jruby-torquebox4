@@ -3,6 +3,7 @@ LABEL maintainer thomas@charbonnel.email
 
 ENV PUID 1000
 ENV PGID 1000
+ENV APP_ROOT /app
 
 VOLUME /app
 
